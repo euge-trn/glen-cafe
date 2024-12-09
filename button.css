@@ -1,0 +1,23 @@
+
+.btn-primary {
+  display: inline-block;
+  background-color: var(--color-primary);
+  color: var(--color-bg-main);
+  padding: 10px 20px;
+  border-radius: var(--border-radius);
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color var(--transition-duration);
+  margin-top: var(--spacing);
+}
+
+.btn-primary:hover, .btn-primary:focus {
+  background-color: var(--color-primary-dark);
+}
+
+
+nav ul li a:hover, nav ul li a:focus {
+  color: var(--color-primary);
+  transform: translateY(-3px);
+  border-bottom: 2px solid var(--color-primary);
+}

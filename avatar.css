@@ -1,0 +1,23 @@
+.avatar {
+  margin: 20px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  border-radius: 50%;
+  border: 3px solid var(--color-border);
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.15); 
+}
+
+.avatar img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.avatar:hover img {
+  transform: scale(1.1); 
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.25); 
+}
